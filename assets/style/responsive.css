@@ -7,13 +7,6 @@
   .heading h2 {
     font-size: 20px;
   }
-    
-/*
-    .menu {
-    width: 50%;
-    margin-bottom: 50px;
-  }
-*/
   
   .lesson {
     width: 50%;
@@ -30,19 +23,7 @@
 }
 
 /* Untuk Smartphone */
-@media all and (max-width: 670px) {
-/*
-  .header-right {
-    display: none;
-  }
-*/
-  
-/*
-  .menu-icon {
-    display: block;
-  }
-*/
-  
+@media all and (max-width: 670px) {  
   .btn {
     width: 90%;
   }
@@ -65,12 +46,6 @@
     line-height: 20px;
   }
     
-/*
-    .menu {
-    width: 100%;
-  }
-*/
-  
   .lesson {
     width: 100%;
   }
