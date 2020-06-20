@@ -127,35 +127,6 @@ display:block;
 font-size:18px;
 }
 
-/*-----------------------------------------------------------*/
-
-/*
-.menu-wrapper {
-  height: 500px;
-  padding-bottom: 80px;
-  font-weight: bold;
-  color:#7158e2;
-}
-.menu {
-  float: left;
-  width: 25%;
-}
-.menu-wrapper{
-  text-align: center;
-}
-.menu-icon{
-  position: relative;
-}
-.menu-icon p{
-position: absolute;
-top: 90px;
-width: 100%;
-color: white;
-}
-*/
-
-/*------------------------------------------------------------*/
-
 .lesson-wrapper {
   height: 500px;
   padding-bottom: 80px;
