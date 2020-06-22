@@ -9,6 +9,10 @@ h1, h2, h3, h4, h5, h6, p, div {
   padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: "Lucida Grande";
@@ -19,7 +23,7 @@ a {
 }
 
 .container {
-/*   max-width: 1170px; */
+  max-width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -230,3 +234,13 @@ footer {
   padding: 20px;
   background-color: #ff5252;
 }
+
+footer a:hover{
+    transition:all 0.5s;
+    color: #fff;
+}
+
+footer a{
+    font-size: 16px;
+}
+
