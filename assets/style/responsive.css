@@ -57,6 +57,9 @@
   box-shadow: 0 7px #b33939;
   color: #ffffff;
 }
+  .message-wrapper h3{
+        font-size: 16px;
+    }
   
   footer {
     text-align: left;
