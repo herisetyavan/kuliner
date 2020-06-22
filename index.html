@@ -7,6 +7,26 @@
     <link rel="stylesheet" href="assets/style/stylesheet.css">
       <link rel="stylesheet" href="assets/style/responsive.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
+          $("a").on('click', function(event) {
+
+            if (this.hash !== "") {
+              event.preventDefault();
+
+              var hash = this.hash;
+
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
+
+                window.location.hash = hash;
+              });
+            } 
+          });
+        });
+        </script>
   </head>
   <body>
       
@@ -21,10 +41,10 @@
       </div>
     </header>
       
-    <div class="top-wrapper">
+    <div class="top-wrapper" id="top">
      <div class="container">
      <h1>WISATA KULINER</h1>
-     <h1>Belanja Kuliner Online secara Mudah</h1>
+     <h1>Belanja Kuliner Online dengan Mudah</h1>
      <p>Wisata Kuliner adalah situs berbelanja kuliner</p>
      <p>Kami menawarkan berbagai kuliner yang sehat dengan harga terjangkau</p>
      <div class="btn-wrapper">
@@ -82,20 +102,24 @@
           <h2>Tunggu apa lagi?</h2>
           <h3>Pilih menu favoritmu dan rasakan makanan berkelas dengan harga terjangkau!</h3>
         </div>
-        <span class="btn message">Pesan sekarang</span>
+        <span class="btn message">Pesan sekarang!</span>
       </div>
     </div>
 
     <footer>
       <div class="footer">
-        <div class="footer-logo">Kelompok E10</div>
+        <div class="footer-logo"><h6>Tim E10
+                            <br>DTS x Progate
+                            <br>&copy; 2020.</h6>
+          </div>
         <div class="footer-list">
           <ul>
-            <li>Developed by:</li>
+            <li><b>Developed by:</b></li>
             <li>Heri Setyawan</li>
             <li>Indra Utama</li>
             <li>Kelvyn Yoan Toni Pasaribu</li>
           </ul>
+            <a href="#top"><br><b>Kembali ke atas ^</b></a>
         </div>
       </div>
     </footer>
